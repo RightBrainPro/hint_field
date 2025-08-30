@@ -1,6 +1,6 @@
 name: hint_field
 description: "A widget to show hint or error text under a field."
-version: 1.0.0
+version: 1.0.1
 repository: https://github.com/darkstarx/hint_field
 issue_tracker: https://github.com/darkstarx/hint_field/issues
 

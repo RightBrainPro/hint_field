@@ -13,7 +13,8 @@ class HintField extends StatelessWidget
 
   /// The style of the text.
   ///
-  /// If not specified, `Theme.of(context).textTheme.bodySmall` will be used.
+  /// If not specified, `Theme.of(context).inputDecorationTheme.hintStyle` will
+  /// be used.
   final TextStyle? style;
 
   const HintField({
@@ -40,7 +41,7 @@ class HintField extends StatelessWidget
               curve: Curves.easeOut,
               bottom: text == null ? height / 4 : 0,
               child: Text(text ?? '',
-                style: style ?? Theme.of(context).textTheme.bodySmall,
+                style: style ?? Theme.of(context).inputDecorationTheme.hintStyle,
               ),
             ),
           ],
