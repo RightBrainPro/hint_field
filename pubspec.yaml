@@ -1,10 +1,10 @@
 name: hint_field
-description: "A widget to show hint or error text under a field."
+description: "A widget to show hint or error text under the field widget."
 version: 1.0.1
-repository: https://github.com/darkstarx/hint_field
-issue_tracker: https://github.com/darkstarx/hint_field/issues
+repository: https://github.com/RightBrainPro/hint_field
+issue_tracker: https://github.com/RightBrainPro/hint_field/issues
 
-publish_to: https://pub.rightbrain.pro/schtandart/
+publish_to: https://pub.rightbrain.pro/
 
 environment:
   sdk: ^3.8.1
